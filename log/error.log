@@ -205,3 +205,5 @@ org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'dd
                 [32m                  [0;39m An incompatible version [1.2.30] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
 2024-10-26 15:58:30.990 ERROR org.apache.catalina.core.AprLifecycleListener     :173 
                 [32m                  [0;39m An incompatible version [1.2.30] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+2024-10-26 16:01:46.755 ERROR org.apache.catalina.core.AprLifecycleListener     :173 
+                [32m                  [0;39m An incompatible version [1.2.30] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
