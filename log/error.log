@@ -1,0 +1,19 @@
+2024-10-26 10:22:07.225 ERROR org.apache.catalina.core.AprLifecycleListener     :173 
+                [32m                  [0;39m An incompatible version [1.2.30] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+2024-10-26 10:22:08.326 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40  
+                [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-10-26 10:23:06.568 ERROR org.apache.catalina.core.AprLifecycleListener     :173 
+                [32m                  [0;39m An incompatible version [1.2.30] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
