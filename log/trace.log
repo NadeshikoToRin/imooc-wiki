@@ -117,3 +117,748 @@ This generated password is for development use only. Your security configuration
                 [32m                  [0;39m Tomcat started on port 8088 (http) with context path '/'
 2024-10-26 10:23:07.586 INFO  dev.akemi.backend.BackendApplication              :56  
                 [32m                  [0;39m Started BackendApplication in 2.137 seconds (process running for 2.871)
+2024-10-26 10:26:03.593 INFO  com.zaxxer.hikari.HikariDataSource                :349 
+                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-10-26 10:26:03.599 INFO  com.zaxxer.hikari.HikariDataSource                :351 
+                [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-10-26 10:26:05.769 INFO  dev.akemi.backend.BackendApplication              :50  
+                [32m                  [0;39m Starting BackendApplication using Java 17.0.12 with PID 2956 (G:\fullStack\fullStackProject\wiki-project\backend\target\classes started by Lulouch in G:\fullStack\fullStackProject\wiki-project)
+2024-10-26 10:26:05.771 INFO  dev.akemi.backend.BackendApplication              :654 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-26 10:26:05.805 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-26 10:26:05.805 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-26 10:26:06.224 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :143 
+                [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-10-26 10:26:06.237 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :211 
+                [32m                  [0;39m Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2024-10-26 10:26:06.484 ERROR org.apache.catalina.core.AprLifecycleListener     :173 
+                [32m                  [0;39m An incompatible version [1.2.30] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+2024-10-26 10:26:06.664 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m                  [0;39m Tomcat initialized with port 8088 (http)
+2024-10-26 10:26:06.672 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
+2024-10-26 10:26:06.675 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2024-10-26 10:26:06.676 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-26 10:26:06.727 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-10-26 10:26:06.727 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 921 ms
+2024-10-26 10:26:07.024 INFO  com.zaxxer.hikari.HikariDataSource                :109 
+                [32m                  [0;39m HikariPool-1 - Starting...
+2024-10-26 10:26:07.231 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
+                [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57a5f7e8
+2024-10-26 10:26:07.233 INFO  com.zaxxer.hikari.HikariDataSource                :122 
+                [32m                  [0;39m HikariPool-1 - Start completed.
+2024-10-26 10:26:07.329 WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration   :86  
+                [32m                  [0;39m 
+
+Using generated security password: f4402dce-66ea-401f-bb98-db3b4cc8e998
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-26 10:26:07.341 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer:113 
+                [32m                  [0;39m Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-10-26 10:26:07.452 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2024-10-26 10:26:07.468 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8088"]
+2024-10-26 10:26:07.496 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m                  [0;39m Tomcat started on port 8088 (http) with context path '/'
+2024-10-26 10:26:07.504 INFO  dev.akemi.backend.BackendApplication              :56  
+                [32m                  [0;39m Started BackendApplication in 2.157 seconds (process running for 2.914)
+2024-10-26 10:44:02.865 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 
+                [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-10-26 10:44:02.868 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8088"]
+2024-10-26 10:44:05.263 INFO  com.zaxxer.hikari.HikariDataSource                :349 
+                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-10-26 10:44:05.270 INFO  com.zaxxer.hikari.HikariDataSource                :351 
+                [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-10-26 10:44:05.325 INFO  dev.akemi.backend.BackendApplication              :50  
+                [32m                  [0;39m Starting BackendApplication using Java 17.0.12 with PID 2956 (G:\fullStack\fullStackProject\wiki-project\backend\target\classes started by Lulouch in G:\fullStack\fullStackProject\wiki-project)
+2024-10-26 10:44:05.325 INFO  dev.akemi.backend.BackendApplication              :654 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-26 10:44:05.450 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :143 
+                [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-10-26 10:44:05.452 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :211 
+                [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2024-10-26 10:44:05.491 ERROR org.apache.catalina.core.AprLifecycleListener     :173 
+                [32m                  [0;39m An incompatible version [1.2.30] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+2024-10-26 10:44:05.550 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m                  [0;39m Tomcat initialized with port 8088 (http)
+2024-10-26 10:44:05.550 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
+2024-10-26 10:44:05.551 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2024-10-26 10:44:05.551 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-26 10:44:05.560 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-10-26 10:44:05.561 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 234 ms
+2024-10-26 10:44:05.646 INFO  com.zaxxer.hikari.HikariDataSource                :109 
+                [32m                  [0;39m HikariPool-2 - Starting...
+2024-10-26 10:44:05.657 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
+                [32m                  [0;39m HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@97e39bc
+2024-10-26 10:44:05.657 INFO  com.zaxxer.hikari.HikariDataSource                :122 
+                [32m                  [0;39m HikariPool-2 - Start completed.
+2024-10-26 10:44:05.675 WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration   :86  
+                [32m                  [0;39m 
+
+Using generated security password: afeea7ca-38b6-4cbb-8929-ad00adf42c21
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-26 10:44:05.676 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer:113 
+                [32m                  [0;39m Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-10-26 10:44:05.698 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2024-10-26 10:44:05.704 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8088"]
+2024-10-26 10:44:05.707 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m                  [0;39m Tomcat started on port 8088 (http) with context path '/'
+2024-10-26 10:44:05.710 INFO  dev.akemi.backend.BackendApplication              :56  
+                [32m                  [0;39m Started BackendApplication in 0.413 seconds (process running for 1081.12)
+2024-10-26 10:44:05.711 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2024-10-26 10:44:24.416 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 
+                [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-10-26 10:44:24.418 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8088"]
+2024-10-26 10:44:26.973 INFO  com.zaxxer.hikari.HikariDataSource                :349 
+                [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2024-10-26 10:44:26.977 INFO  com.zaxxer.hikari.HikariDataSource                :351 
+                [32m                  [0;39m HikariPool-2 - Shutdown completed.
+2024-10-26 10:44:27.056 INFO  dev.akemi.backend.BackendApplication              :50  
+                [32m                  [0;39m Starting BackendApplication using Java 17.0.12 with PID 2956 (G:\fullStack\fullStackProject\wiki-project\backend\target\classes started by Lulouch in G:\fullStack\fullStackProject\wiki-project)
+2024-10-26 10:44:27.057 INFO  dev.akemi.backend.BackendApplication              :654 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-26 10:44:27.147 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :143 
+                [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-10-26 10:44:27.148 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :211 
+                [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2024-10-26 10:44:27.178 ERROR org.apache.catalina.core.AprLifecycleListener     :173 
+                [32m                  [0;39m An incompatible version [1.2.30] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+2024-10-26 10:44:27.242 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m                  [0;39m Tomcat initialized with port 8088 (http)
+2024-10-26 10:44:27.242 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
+2024-10-26 10:44:27.243 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2024-10-26 10:44:27.243 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-26 10:44:27.251 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-10-26 10:44:27.251 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 193 ms
+2024-10-26 10:44:27.314 INFO  com.zaxxer.hikari.HikariDataSource                :109 
+                [32m                  [0;39m HikariPool-3 - Starting...
+2024-10-26 10:44:27.322 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
+                [32m                  [0;39m HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ffe0927
+2024-10-26 10:44:27.322 INFO  com.zaxxer.hikari.HikariDataSource                :122 
+                [32m                  [0;39m HikariPool-3 - Start completed.
+2024-10-26 10:44:27.335 WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration   :86  
+                [32m                  [0;39m 
+
+Using generated security password: c9ca2123-3451-40b9-86f6-02f891ca914e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-26 10:44:27.337 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer:113 
+                [32m                  [0;39m Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-10-26 10:44:27.350 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2024-10-26 10:44:27.355 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8088"]
+2024-10-26 10:44:27.358 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m                  [0;39m Tomcat started on port 8088 (http) with context path '/'
+2024-10-26 10:44:27.361 INFO  dev.akemi.backend.BackendApplication              :56  
+                [32m                  [0;39m Started BackendApplication in 0.326 seconds (process running for 1102.771)
+2024-10-26 10:44:27.362 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2024-10-26 10:44:43.212 INFO  com.zaxxer.hikari.HikariDataSource                :349 
+                [32m                  [0;39m HikariPool-3 - Shutdown initiated...
+2024-10-26 10:44:43.216 INFO  com.zaxxer.hikari.HikariDataSource                :351 
+                [32m                  [0;39m HikariPool-3 - Shutdown completed.
+2024-10-26 15:42:53.098 INFO  dev.akemi.backend.BackendApplication              :50  
+                [32m                  [0;39m Starting BackendApplication using Java 17.0.12 with PID 28844 (G:\fullStack\fullStackProject\wiki-project\backend\target\classes started by Lulouch in G:\fullStack\fullStackProject\wiki-project)
+2024-10-26 15:42:53.099 INFO  dev.akemi.backend.BackendApplication              :654 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-26 15:42:53.133 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-26 15:42:53.133 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-26 15:42:53.643 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :143 
+                [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-10-26 15:42:53.653 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :211 
+                [32m                  [0;39m Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2024-10-26 15:42:53.736 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[dev.akemi.backend]' package. Please check your configuration.
+2024-10-26 15:42:53.899 ERROR org.apache.catalina.core.AprLifecycleListener     :173 
+                [32m                  [0;39m An incompatible version [1.2.30] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+2024-10-26 15:42:54.083 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m                  [0;39m Tomcat initialized with port 8088 (http)
+2024-10-26 15:42:54.091 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
+2024-10-26 15:42:54.093 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2024-10-26 15:42:54.094 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-26 15:42:54.133 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-10-26 15:42:54.134 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 1000 ms
+2024-10-26 15:42:54.198 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:633 
+                [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController': Injection of resource dependencies failed
+2024-10-26 15:42:54.200 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Stopping service [Tomcat]
+2024-10-26 15:42:54.228 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82  
+                [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-26 15:42:54.243 ERROR org.springframework.boot.SpringApplication        :859 
+                [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:371)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at dev.akemi.backend.BackendApplication.main(BackendApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ebookServiceImpl': Unsatisfied dependency expressed through field 'baseMapper': No qualifying bean of type 'dev.akemi.backend.mapper.EbookMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:598)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:576)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:738)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:270)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:368)
+	... 22 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'dev.akemi.backend.mapper.EbookMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1880)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1406)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 41 common frames omitted
+2024-10-26 15:46:53.411 INFO  dev.akemi.backend.BackendApplication              :50  
+                [32m                  [0;39m Starting BackendApplication using Java 17.0.12 with PID 32460 (G:\fullStack\fullStackProject\wiki-project\backend\target\classes started by Lulouch in G:\fullStack\fullStackProject\wiki-project)
+2024-10-26 15:46:53.413 INFO  dev.akemi.backend.BackendApplication              :654 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-26 15:46:53.446 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-26 15:46:53.446 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-26 15:46:53.925 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :143 
+                [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-10-26 15:46:53.935 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :211 
+                [32m                  [0;39m Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2024-10-26 15:46:54.108 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:633 
+                [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'ebookMapper' defined in file [G:\fullStack\fullStackProject\wiki-project\backend\target\classes\dev\akemi\backend\mapper\EbookMapper.class]: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
+2024-10-26 15:46:54.116 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82  
+                [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-26 15:46:54.135 ERROR org.springframework.boot.SpringApplication        :859 
+                [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'ebookMapper' defined in file [G:\fullStack\fullStackProject\wiki-project\backend\target\classes\dev\akemi\backend\mapper\EbookMapper.class]: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:857)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getType(AbstractBeanFactory.java:743)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAnnotationOnBean(DefaultListableBeanFactory.java:735)
+	at org.springframework.boot.sql.init.dependency.AnnotationDependsOnDatabaseInitializationDetector.detect(AnnotationDependsOnDatabaseInitializationDetector.java:36)
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.detectDependsOnInitializationBeanNames(DatabaseInitializationDependencyConfigurer.java:152)
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.postProcessBeanFactory(DatabaseInitializationDependencyConfigurer.java:115)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at dev.akemi.backend.BackendApplication.main(BackendApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2024-10-26 15:47:30.481 INFO  dev.akemi.backend.BackendApplication              :50  
+                [32m                  [0;39m Starting BackendApplication using Java 17.0.12 with PID 35412 (G:\fullStack\fullStackProject\wiki-project\backend\target\classes started by Lulouch in G:\fullStack\fullStackProject\wiki-project)
+2024-10-26 15:47:30.483 INFO  dev.akemi.backend.BackendApplication              :654 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-26 15:47:30.523 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-26 15:47:30.524 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-26 15:47:30.985 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :143 
+                [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-10-26 15:47:31.001 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :211 
+                [32m                  [0;39m Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2024-10-26 15:47:31.172 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:633 
+                [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'ebookMapper' defined in file [G:\fullStack\fullStackProject\wiki-project\backend\target\classes\dev\akemi\backend\mapper\EbookMapper.class]: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
+2024-10-26 15:47:31.179 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82  
+                [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-26 15:47:31.200 ERROR org.springframework.boot.SpringApplication        :859 
+                [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'ebookMapper' defined in file [G:\fullStack\fullStackProject\wiki-project\backend\target\classes\dev\akemi\backend\mapper\EbookMapper.class]: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:857)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getType(AbstractBeanFactory.java:743)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAnnotationOnBean(DefaultListableBeanFactory.java:735)
+	at org.springframework.boot.sql.init.dependency.AnnotationDependsOnDatabaseInitializationDetector.detect(AnnotationDependsOnDatabaseInitializationDetector.java:36)
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.detectDependsOnInitializationBeanNames(DatabaseInitializationDependencyConfigurer.java:152)
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.postProcessBeanFactory(DatabaseInitializationDependencyConfigurer.java:115)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at dev.akemi.backend.BackendApplication.main(BackendApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2024-10-26 15:49:46.789 INFO  dev.akemi.backend.BackendApplication              :50  
+                [32m                  [0;39m Starting BackendApplication using Java 17.0.12 with PID 35592 (G:\fullStack\fullStackProject\wiki-project\backend\target\classes started by Lulouch in G:\fullStack\fullStackProject\wiki-project)
+2024-10-26 15:49:46.792 INFO  dev.akemi.backend.BackendApplication              :654 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-26 15:49:46.833 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-26 15:49:46.833 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-26 15:49:47.331 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :143 
+                [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-10-26 15:49:47.345 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :211 
+                [32m                  [0;39m Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2024-10-26 15:49:47.578 ERROR org.apache.catalina.core.AprLifecycleListener     :173 
+                [32m                  [0;39m An incompatible version [1.2.30] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+2024-10-26 15:49:47.771 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m                  [0;39m Tomcat initialized with port 8088 (http)
+2024-10-26 15:49:47.779 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
+2024-10-26 15:49:47.783 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2024-10-26 15:49:47.783 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-26 15:49:47.832 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-10-26 15:49:47.832 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 999 ms
+2024-10-26 15:49:47.914 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure          :55  
+                [32m                  [0;39m Init DruidDataSource
+2024-10-26 15:49:48.272 INFO  com.alibaba.druid.pool.DruidDataSource            :1009
+                [32m                  [0;39m {dataSource-1} inited
+2024-10-26 15:49:48.973 WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration   :86  
+                [32m                  [0;39m 
+
+Using generated security password: c0183acc-a820-4085-8c5d-e7cf4f8f81c4
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-26 15:49:48.985 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer:113 
+                [32m                  [0;39m Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-10-26 15:49:49.105 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2024-10-26 15:49:49.122 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8088"]
+2024-10-26 15:49:49.137 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m                  [0;39m Tomcat started on port 8088 (http) with context path '/'
+2024-10-26 15:49:49.144 INFO  dev.akemi.backend.BackendApplication              :56  
+                [32m                  [0;39m Started BackendApplication in 2.797 seconds (process running for 3.502)
+2024-10-26 15:49:49.147 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82  
+                [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-26 15:49:49.161 ERROR org.springframework.boot.SpringApplication        :859 
+                [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at dev.akemi.backend.BackendApplication.main(BackendApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2024-10-26 15:49:51.603 INFO  com.alibaba.druid.pool.DruidDataSource            :2174
+                [32m                  [0;39m {dataSource-1} closing ...
+2024-10-26 15:49:51.607 INFO  com.alibaba.druid.pool.DruidDataSource            :2247
+                [32m                  [0;39m {dataSource-1} closed
+2024-10-26 15:50:49.508 INFO  dev.akemi.backend.BackendApplication              :50  
+                [32m                  [0;39m Starting BackendApplication using Java 17.0.12 with PID 25728 (G:\fullStack\fullStackProject\wiki-project\backend\target\classes started by Lulouch in G:\fullStack\fullStackProject\wiki-project)
+2024-10-26 15:50:49.511 INFO  dev.akemi.backend.BackendApplication              :654 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-26 15:50:49.549 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-26 15:50:49.549 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-26 15:50:50.017 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :143 
+                [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-10-26 15:50:50.033 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :211 
+                [32m                  [0;39m Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2024-10-26 15:50:50.282 ERROR org.apache.catalina.core.AprLifecycleListener     :173 
+                [32m                  [0;39m An incompatible version [1.2.30] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+2024-10-26 15:50:50.468 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m                  [0;39m Tomcat initialized with port 8088 (http)
+2024-10-26 15:50:50.476 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
+2024-10-26 15:50:50.479 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2024-10-26 15:50:50.479 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-26 15:50:50.522 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-10-26 15:50:50.522 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 972 ms
+2024-10-26 15:50:50.596 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure          :55  
+                [32m                  [0;39m Init DruidDataSource
+2024-10-26 15:50:50.952 INFO  com.alibaba.druid.pool.DruidDataSource            :1009
+                [32m                  [0;39m {dataSource-1} inited
+2024-10-26 15:50:51.629 WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration   :86  
+                [32m                  [0;39m 
+
+Using generated security password: 2d7aa358-5559-4b23-8dbe-4003b7cebaa3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-26 15:50:51.641 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer:113 
+                [32m                  [0;39m Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-10-26 15:50:51.743 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2024-10-26 15:50:51.759 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8088"]
+2024-10-26 15:50:51.775 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m                  [0;39m Tomcat started on port 8088 (http) with context path '/'
+2024-10-26 15:50:51.782 INFO  dev.akemi.backend.BackendApplication              :56  
+                [32m                  [0;39m Started BackendApplication in 2.694 seconds (process running for 3.413)
+2024-10-26 15:50:51.786 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82  
+                [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-26 15:50:51.799 ERROR org.springframework.boot.SpringApplication        :859 
+                [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at dev.akemi.backend.BackendApplication.main(BackendApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2024-10-26 15:50:54.260 INFO  com.alibaba.druid.pool.DruidDataSource            :2174
+                [32m                  [0;39m {dataSource-1} closing ...
+2024-10-26 15:50:54.265 INFO  com.alibaba.druid.pool.DruidDataSource            :2247
+                [32m                  [0;39m {dataSource-1} closed
+2024-10-26 15:52:52.675 INFO  dev.akemi.backend.BackendApplication              :50  
+                [32m                  [0;39m Starting BackendApplication using Java 17.0.12 with PID 34536 (G:\fullStack\fullStackProject\wiki-project\backend\target\classes started by Lulouch in G:\fullStack\fullStackProject\wiki-project)
+2024-10-26 15:52:52.678 INFO  dev.akemi.backend.BackendApplication              :654 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-26 15:52:52.720 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-26 15:52:52.720 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-26 15:52:53.193 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :143 
+                [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-10-26 15:52:53.207 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :211 
+                [32m                  [0;39m Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+2024-10-26 15:52:53.455 ERROR org.apache.catalina.core.AprLifecycleListener     :173 
+                [32m                  [0;39m An incompatible version [1.2.30] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+2024-10-26 15:52:53.637 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m                  [0;39m Tomcat initialized with port 8088 (http)
+2024-10-26 15:52:53.645 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
+2024-10-26 15:52:53.647 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2024-10-26 15:52:53.648 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-26 15:52:53.688 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-10-26 15:52:53.689 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 968 ms
+2024-10-26 15:52:53.764 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure          :55  
+                [32m                  [0;39m Init DruidDataSource
+2024-10-26 15:52:54.116 INFO  com.alibaba.druid.pool.DruidDataSource            :1009
+                [32m                  [0;39m {dataSource-1} inited
+2024-10-26 15:52:54.825 WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration   :86  
+                [32m                  [0;39m 
+
+Using generated security password: b5d42da5-9f8d-480d-bbba-acaa985e9780
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-26 15:52:54.837 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer:113 
+                [32m                  [0;39m Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-10-26 15:52:54.939 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2024-10-26 15:52:54.956 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8088"]
+2024-10-26 15:52:54.971 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m                  [0;39m Tomcat started on port 8088 (http) with context path '/'
+2024-10-26 15:52:54.978 INFO  dev.akemi.backend.BackendApplication              :56  
+                [32m                  [0;39m Started BackendApplication in 2.73 seconds (process running for 3.43)
+2024-10-26 15:52:54.981 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82  
+                [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-26 15:52:54.994 ERROR org.springframework.boot.SpringApplication        :859 
+                [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at dev.akemi.backend.BackendApplication.main(BackendApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2024-10-26 15:52:57.403 INFO  com.alibaba.druid.pool.DruidDataSource            :2174
+                [32m                  [0;39m {dataSource-1} closing ...
+2024-10-26 15:52:57.407 INFO  com.alibaba.druid.pool.DruidDataSource            :2247
+                [32m                  [0;39m {dataSource-1} closed
+2024-10-26 15:55:01.408 INFO  dev.akemi.backend.BackendApplication              :50  
+                [32m                  [0;39m Starting BackendApplication using Java 17.0.12 with PID 35596 (G:\fullStack\fullStackProject\wiki-project\backend\target\classes started by Lulouch in G:\fullStack\fullStackProject\wiki-project)
+2024-10-26 15:55:01.410 INFO  dev.akemi.backend.BackendApplication              :654 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-26 15:55:01.450 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-26 15:55:01.450 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-26 15:55:01.934 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :143 
+                [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-10-26 15:55:01.949 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :211 
+                [32m                  [0;39m Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+2024-10-26 15:55:02.193 ERROR org.apache.catalina.core.AprLifecycleListener     :173 
+                [32m                  [0;39m An incompatible version [1.2.30] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+2024-10-26 15:55:02.370 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m                  [0;39m Tomcat initialized with port 8088 (http)
+2024-10-26 15:55:02.377 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
+2024-10-26 15:55:02.380 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2024-10-26 15:55:02.380 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-26 15:55:02.419 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-10-26 15:55:02.420 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 969 ms
+2024-10-26 15:55:02.491 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure          :55  
+                [32m                  [0;39m Init DruidDataSource
+2024-10-26 15:55:02.824 INFO  com.alibaba.druid.pool.DruidDataSource            :1009
+                [32m                  [0;39m {dataSource-1} inited
+2024-10-26 15:55:03.524 WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration   :86  
+                [32m                  [0;39m 
+
+Using generated security password: 54201636-ea56-4be0-9459-a8cd39567bd2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-26 15:55:03.537 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer:113 
+                [32m                  [0;39m Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-10-26 15:55:03.643 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2024-10-26 15:55:03.659 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8088"]
+2024-10-26 15:55:03.674 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m                  [0;39m Tomcat started on port 8088 (http) with context path '/'
+2024-10-26 15:55:03.682 INFO  dev.akemi.backend.BackendApplication              :56  
+                [32m                  [0;39m Started BackendApplication in 2.679 seconds (process running for 3.396)
+2024-10-26 15:55:03.685 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82  
+                [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-26 15:55:03.699 ERROR org.springframework.boot.SpringApplication        :859 
+                [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at dev.akemi.backend.BackendApplication.main(BackendApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2024-10-26 15:55:06.183 INFO  com.alibaba.druid.pool.DruidDataSource            :2174
+                [32m                  [0;39m {dataSource-1} closing ...
+2024-10-26 15:55:06.189 INFO  com.alibaba.druid.pool.DruidDataSource            :2247
+                [32m                  [0;39m {dataSource-1} closed
+2024-10-26 15:56:28.401 INFO  org.hibernate.validator.internal.util.Version     :21  
+                [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-10-26 15:56:28.434 INFO  dev.akemi.backend.BackendApplication              :51  
+                [32m                  [0;39m Starting BackendApplication using Java 17.0.12 with PID 34468 (G:\fullStack\fullStackProject\wiki-project\backend\target\classes started by Lulouch in G:\fullStack\fullStackProject\wiki-project)
+2024-10-26 15:56:28.435 INFO  dev.akemi.backend.BackendApplication              :632 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-26 15:56:29.119 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :291 
+                [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-26 15:56:29.121 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :138 
+                [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-10-26 15:56:29.136 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208 
+                [32m                  [0;39m Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+2024-10-26 15:56:29.148 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :291 
+                [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-26 15:56:29.149 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :138 
+                [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-26 15:56:29.162 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208 
+                [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2024-10-26 15:56:29.508 ERROR org.apache.catalina.core.AprLifecycleListener     :173 
+                [32m                  [0;39m An incompatible version [1.2.30] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+2024-10-26 15:56:29.659 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8088 (http)
+2024-10-26 15:56:29.667 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
+2024-10-26 15:56:29.668 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2024-10-26 15:56:29.668 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.7]
+2024-10-26 15:56:29.743 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-10-26 15:56:29.744 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 1252 ms
+2024-10-26 15:56:29.825 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure          :55  
+                [32m                  [0;39m Init DruidDataSource
+2024-10-26 15:56:30.184 INFO  com.alibaba.druid.pool.DruidDataSource            :1009
+                [32m                  [0;39m {dataSource-1} inited
+2024-10-26 15:56:31.289 WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration   :87  
+                [32m                  [0;39m 
+
+Using generated security password: d3286045-2abb-436b-8560-e1442ddc7f27
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-26 15:56:31.370 INFO  o.s.security.web.DefaultSecurityFilterChain       :54  
+                [32m                  [0;39m Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@233789d9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f31937b, org.springframework.security.web.context.SecurityContextHolderFilter@52d181ed, org.springframework.security.web.header.HeaderWriterFilter@6a4f7c17, org.springframework.security.web.csrf.CsrfFilter@2ce62e27, org.springframework.security.web.authentication.logout.LogoutFilter@4a9412c4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4f1a5b93, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@25d9298e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2f4fc18, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e7e4480, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66046e7c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b889cb6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7187078a, org.springframework.security.web.access.ExceptionTranslationFilter@7e2e0b8a, org.springframework.security.web.access.intercept.AuthorizationFilter@7ec8db0c]
+2024-10-26 15:56:31.397 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8088"]
+2024-10-26 15:56:31.414 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8088 (http) with context path ''
+2024-10-26 15:56:31.421 INFO  dev.akemi.backend.BackendApplication              :57  
+                [32m                  [0;39m Started BackendApplication in 3.439 seconds (process running for 4.157)
+2024-10-26 15:58:26.202 INFO  com.alibaba.druid.pool.DruidDataSource            :2174
+                [32m                  [0;39m {dataSource-1} closing ...
+2024-10-26 15:58:26.206 INFO  com.alibaba.druid.pool.DruidDataSource            :2247
+                [32m                  [0;39m {dataSource-1} closed
+2024-10-26 15:58:30.030 INFO  org.hibernate.validator.internal.util.Version     :21  
+                [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-10-26 15:58:30.061 INFO  dev.akemi.backend.BackendApplication              :51  
+                [32m                  [0;39m Starting BackendApplication using Java 17.0.12 with PID 33356 (G:\fullStack\fullStackProject\wiki-project\backend\target\classes started by Lulouch in G:\fullStack\fullStackProject\wiki-project)
+2024-10-26 15:58:30.062 INFO  dev.akemi.backend.BackendApplication              :632 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-26 15:58:30.648 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :291 
+                [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-26 15:58:30.649 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :138 
+                [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-10-26 15:58:30.664 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208 
+                [32m                  [0;39m Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+2024-10-26 15:58:30.674 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :291 
+                [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-26 15:58:30.675 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :138 
+                [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-26 15:58:30.683 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208 
+                [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2024-10-26 15:58:30.990 ERROR org.apache.catalina.core.AprLifecycleListener     :173 
+                [32m                  [0;39m An incompatible version [1.2.30] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+2024-10-26 15:58:31.136 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8088 (http)
+2024-10-26 15:58:31.142 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
+2024-10-26 15:58:31.143 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2024-10-26 15:58:31.144 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.7]
+2024-10-26 15:58:31.212 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-10-26 15:58:31.212 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 1113 ms
+2024-10-26 15:58:31.293 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure          :55  
+                [32m                  [0;39m Init DruidDataSource
+2024-10-26 15:58:31.630 INFO  com.alibaba.druid.pool.DruidDataSource            :1009
+                [32m                  [0;39m {dataSource-1} inited
+2024-10-26 15:58:32.786 WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration   :87  
+                [32m                  [0;39m 
+
+Using generated security password: d1897d9b-df77-4580-b7f3-f75ec4a912a6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-26 15:58:32.877 INFO  o.s.security.web.DefaultSecurityFilterChain       :54  
+                [32m                  [0;39m Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@38b0e2a7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6bdad3bb, org.springframework.security.web.context.SecurityContextHolderFilter@488b46da, org.springframework.security.web.header.HeaderWriterFilter@1d6a0962, org.springframework.security.web.csrf.CsrfFilter@563392e5, org.springframework.security.web.authentication.logout.LogoutFilter@8beb0dd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@16745abd, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@78b44fcb, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@73eae5f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7a053795, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3c74d846, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@219dd935, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4902c584, org.springframework.security.web.access.ExceptionTranslationFilter@705d72f0, org.springframework.security.web.access.intercept.AuthorizationFilter@717b0d81]
+2024-10-26 15:58:32.913 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8088"]
+2024-10-26 15:58:32.937 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8088 (http) with context path ''
+2024-10-26 15:58:32.945 INFO  dev.akemi.backend.BackendApplication              :57  
+                [32m                  [0;39m Started BackendApplication in 3.342 seconds (process running for 4.011)
+2024-10-26 15:59:44.625 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-26 15:59:44.625 INFO  org.springframework.web.servlet.DispatcherServlet :532 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-10-26 15:59:44.626 INFO  org.springframework.web.servlet.DispatcherServlet :554 
+                [32m                  [0;39m Completed initialization in 0 ms
+2024-10-26 15:59:44.899 WARN  org.apache.catalina.util.SessionIdGeneratorBase   :173 
+                [32m                  [0;39m Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [252] milliseconds.
+2024-10-26 16:01:40.232 INFO  com.alibaba.druid.pool.DruidDataSource            :2174
+                [32m                  [0;39m {dataSource-1} closing ...
+2024-10-26 16:01:40.237 INFO  com.alibaba.druid.pool.DruidDataSource            :2247
+                [32m                  [0;39m {dataSource-1} closed
