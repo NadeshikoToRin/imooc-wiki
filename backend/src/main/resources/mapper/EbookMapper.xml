@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="dev.akemi.backend.mapper.EbookMapper">
 
-    <resultMap id="BaseResultMap" type="dev.akemi.backend.entity.Ebook">
+    <resultMap id="BaseResultMap" type="dev.akemi.backend.model.entity.Ebook">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="name" column="name" jdbcType="VARCHAR"/>
             <result property="category1Id" column="category1_id" jdbcType="BIGINT"/>

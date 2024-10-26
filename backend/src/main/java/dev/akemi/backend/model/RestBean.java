@@ -1,4 +1,4 @@
-package dev.akemi.backend.entity;
+package dev.akemi.backend.model;
 
 import lombok.Data;
 

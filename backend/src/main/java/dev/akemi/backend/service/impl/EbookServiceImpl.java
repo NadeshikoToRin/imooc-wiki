@@ -1,7 +1,7 @@
 package dev.akemi.backend.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import dev.akemi.backend.entity.Ebook;
+import dev.akemi.backend.model.entity.Ebook;
 import dev.akemi.backend.service.EbookService;
 import dev.akemi.backend.mapper.EbookMapper;
 import org.springframework.stereotype.Service;

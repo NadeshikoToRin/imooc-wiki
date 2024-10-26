@@ -1,6 +1,6 @@
 package dev.akemi.backend.service;
 
-import dev.akemi.backend.entity.Ebook;
+import dev.akemi.backend.model.entity.Ebook;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
