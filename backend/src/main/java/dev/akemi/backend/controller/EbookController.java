@@ -1,5 +1,6 @@
 package dev.akemi.backend.controller;
 
+import cn.hutool.core.bean.BeanUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import dev.akemi.backend.model.RestBean;
 import dev.akemi.backend.model.dto.EbookQueryRequest;
@@ -7,7 +8,6 @@ import dev.akemi.backend.model.entity.Ebook;
 import dev.akemi.backend.model.vo.EbookVO;
 import dev.akemi.backend.service.EbookService;
 import jakarta.annotation.Resource;
-import org.springframework.beans.BeanUtils;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -21,12 +21,7 @@ public class EbookController {
     @GetMapping
     public RestBean<List<EbookVO>> getEbooks() {
         List<Ebook> ebooks = ebookService.list();
-        List<EbookVO> ebookVOs = ebooks.stream().map(ebook -> {
-            EbookVO ebookVO = new EbookVO();
-            BeanUtils.copyProperties(ebook, ebookVO);
-            return ebookVO;
-                }
-        ).toList();
+        List<EbookVO> ebookVOs = BeanUtil.copyToList(ebooks, EbookVO.class);
         return RestBean.success(ebookVOs);
     }
 
@@ -38,11 +33,7 @@ public class EbookController {
         ebookQueryWrapper.eq(ebookQueryRequest.getCategory1Id() != null,"category1_id",
                 ebookQueryRequest.getCategory1Id());
         List<Ebook> ebooks = ebookService.list(ebookQueryWrapper);
-        List<EbookVO> ebookVOS = ebooks.stream().map(ebook -> {
-            EbookVO ebookVO = new EbookVO();
-            BeanUtils.copyProperties(ebook, ebookVO);
-            return ebookVO;
-        }).toList();
+        List<EbookVO> ebookVOS = BeanUtil.copyToList(ebooks, EbookVO.class);
         return RestBean.success(ebookVOS);
     }
 }

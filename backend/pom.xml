@@ -137,6 +137,12 @@
             <version>2.1.0</version> <!-- 确保使用最新版本 -->
         </dependency>
 
+<!--hutool-all-->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.8.21</version>
+        </dependency>
 
 
 
